@@ -6,7 +6,7 @@ const db = new sqlite3.Database('escola.sqlite', (err) => {
         console.log("Banco de dados criado com sucesso.")
     }
   //db.run("CREATE TABLE alunos(matricula int primary key, nome varchar(60), email varchar(40), cidade varchar(60))");
-  //db.run("INSERT into alunos(matricula, nome, email, cidade) values (1, 'ANA--------', 'ANA@REPROGRAMESE.COM------', 'CARIACICA')");
+ // db.run("INSERT into alunos(matricula, nome, email, cidade) values (1, 'ANA--------', 'ANA@REPROGRAMESE.COM------', 'CARIACICA')");
   //db.run("INSERT into alunos(matricula, nome, email, cidade) values (2, 'JOAO--------', 'JOAO@REPROGRAMESE.COM------', 'VITORIA')");
   //db.run("INSERT into alunos(matricula, nome, email, cidade) values (3, 'MARIAH--------', 'MARIAH@REPROGRAMESE.COM------', 'SERRA')");
   
